@@ -74,3 +74,5 @@ var TxtType = function(el, toRotate, period) {
 init();
 // Section Slide
 
+
+
