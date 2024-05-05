@@ -1,10 +1,10 @@
 // Burger Menu
 var burgerMenu = document.getElementById('burger-menu');
-
 var overlay = document.getElementById('menu');
 
 burgerMenu.addEventListener('click', function() {
   this.classList.toggle("close");
+  // document.getElementById('menu-icon').classList.toggle("menu-3-active");
   overlay.classList.toggle("overlay");
 });
 // Burger Menu
@@ -73,6 +73,4 @@ var TxtType = function(el, toRotate, period) {
 }
 init();
 // Section Slide
-
-
 
